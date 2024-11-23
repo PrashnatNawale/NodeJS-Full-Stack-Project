@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ayushman Hospital</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="../css/index.css"> -->
+    <style>
+        .patientmenu {
+            width: 40vh;
+        }
+        
+        .homemenu li {
+            margin-left: 2vh;
+            margin-right: 2vh;
+        }
+        
+        .crarousal img {
+            height: 40vh;
+        }
+        
+        .facility {
+            margin: 5vh 10vh;
+        }
+        
+        body {
+            background-color: rgb(107, 105, 105);
+        }
+        
+        .homenav {
+            background-color: red;
+        }
+        
+        .facility1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 5vh;
+        }
+        
+        .facility-image {
+            margin: auto;
+        }
+        
+        .carousel-item img {
+            height: 400px;
+            width: 80%;
+        }
+        
+        .video {
+            text-align: center;
+        }
+        
+        .video video {
+            height: 90%;
+            width: 90%;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="homenav">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#homenav">Ayushman Hospital</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 homemenu">
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="adminLogin.html">Administration</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " aria-current="page" href="doctorlogin.html">Doctors corner</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Patient</a>
+                            <ul class="dropdown-menu patientmenu">
+                                <li><a class="dropdown-item" href="patientlogin.html">Login</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="resistration.html">New Resestration</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <!-- <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                    <img src="./Resourses/group-of-doctors-1.jpg" class="carouselimg" alt="">
+                </div>
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h4 style="color: black;">At Ayushman Hospital, Our specialist doctors have more than a decade of experience in treating patients. </h4>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="./Resourses/imageee.jpg" class="carouselimg" alt="">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                    <img src="./Resourses/Doctor-Nurse-Patient-Hospital.jpg" class="carouselimg" alt="">
+                </div>
+                <div class="container">
+                    <div class="carousel-caption text-start">
+                        <h4 style="color: rgb(34, 33, 33);">Ayushman Hospital and Healthcare Services provides international standards of clinical excellence and trust. Our team is committed to provide unparalleled patient care in an ultramodern facility.</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div> -->
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Our Facilities</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div class="feature col">
+                <h2>DEPARTMENTS</h2>
+                <p>Browse through our list of medical services or search by the speciality name in the header to narrow down the list.</p>
+            </div>
+            <div class="feature col">
+                <h2>APPOINTMENTS</h2>
+                <p>We customize care package as per individual requirement, keeping in mind everyone's needs at all stages of their lives.</p>
+            </div>
+            <div class="feature col">
+                <h2>MEET DOCTORS</h2>
+                <p>Find the right clinicians from our list of highly qualified doctors. You can also search for them in the doctor's list.</p>
+            </div>
+        </div>
+    </div>
+    <div class="facility">
+        <div class="facility1">
+            <div>
+                <h3>
+                    State of the Art Healthcare Facility
+                </h3>
+                <p>
+                    Driven by a mandate to provide world class healthcare services at affordable prices, and backed by our impeccable track record of continually providing outstanding medical services and facilities to the 180k patients from Delhi NCR & globally for the
+                    last 17 years and experience gained finally culminated with the launch of a new state-of-the-art 105 bedded Multi & Super Specialty Hospital located in Sector 10, Dwarka.
+                </p>
+            </div>
+            <div class="facility-image">
+                <img src="../assets/info1.png" alt="">
+            </div>
+        </div>
+        <div class="facility1">
+            <div>
+                <h3>
+                    Unparalleled Patient Care
+                </h3>
+                <p>
+                    We are always committed to providing a patient friendly and safe environment and all our practices are NABH accredited and approved. Quality control over medical processes is crucial when it comes to adapting to change as well as delivering effective
+                    and high quality patient care; and for this, the entire team at Ayushman is trained in accordance with the best practices and standards
+                </p>
+            </div>
+            <div class="facility-image">
+                <img src="../assets/info2.png" alt="">
+            </div>
+        </div>
+
+        <div class="facility1">
+            <div>
+                <h2>
+                    Obstetrics & Gynaecology
+                </h2>
+                <p>
+                    The hospital has a dedicated flow of obstetric cases in the wards and pre-labour rooms. Operation theatres and neonatal care have been provided on one floor itself. The rooms have been designed in such a way that they can be converted to fully fledged
+                    delivery suites (LDR). Once an expecting mother enters the delivery suite, she need not worry about anything till discharge.
+                </p>
+            </div>
+            <div class="video">
+                <video muted autoplay>
+                    <source src="../assets/hospitalvideo.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
